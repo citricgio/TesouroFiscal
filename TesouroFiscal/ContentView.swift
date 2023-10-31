@@ -9,13 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ResponsiveStack { height, width in
+            TutorialView(height: height, width: width)
+                .ignoresSafeArea()
         }
-        .padding()
     }
 }
 
