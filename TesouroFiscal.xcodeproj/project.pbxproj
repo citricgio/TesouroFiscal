@@ -11,6 +11,8 @@
 		08CAD04A2AF01991009E8322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD0492AF01991009E8322 /* ContentView.swift */; };
 		08CAD04C2AF01992009E8322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD04B2AF01992009E8322 /* Assets.xcassets */; };
 		08CAD04F2AF01992009E8322 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD04E2AF01992009E8322 /* Preview Assets.xcassets */; };
+		08CAD0562AF17201009E8322 /* ButtonSword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD0552AF17201009E8322 /* ButtonSword.swift */; };
+		08CAD0582AF191A7009E8322 /* PlayfairDisplaySC-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD0572AF191A7009E8322 /* PlayfairDisplaySC-Black.ttf */; };
 		BF52B5D22AF02DB000AC42BD /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52B5D12AF02DB000AC42BD /* TutorialView.swift */; };
 		BF52B5D52AF03BC000AC42BD /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52B5D42AF03BC000AC42BD /* Title.swift */; };
 		BF52B5DF2AF047F500AC42BD /* ResponsiveStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52B5DE2AF047F500AC42BD /* ResponsiveStack.swift */; };
@@ -25,6 +27,8 @@
 		08CAD0492AF01991009E8322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08CAD04B2AF01992009E8322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CAD04E2AF01992009E8322 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08CAD0552AF17201009E8322 /* ButtonSword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSword.swift; sourceTree = "<group>"; };
+		08CAD0572AF191A7009E8322 /* PlayfairDisplaySC-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplaySC-Black.ttf"; sourceTree = "<group>"; };
 		BF52B5D12AF02DB000AC42BD /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		BF52B5D42AF03BC000AC42BD /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		BF52B5DE2AF047F500AC42BD /* ResponsiveStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveStack.swift; sourceTree = "<group>"; };
@@ -64,9 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				BF52B5D62AF03E3800AC42BD /* Fonts */,
-				BF52B5CD2AF02CED00AC42BD /* Controllers */,
 				BF52B5CC2AF02CE800AC42BD /* Views */,
-				BF52B5CB2AF02CE300AC42BD /* Models */,
 				08CAD0472AF01991009E8322 /* TesouroFiscalApp.swift */,
 				08CAD0492AF01991009E8322 /* ContentView.swift */,
 				08CAD04B2AF01992009E8322 /* Assets.xcassets */,
@@ -83,13 +85,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BF52B5CB2AF02CE300AC42BD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		BF52B5CC2AF02CE800AC42BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,13 +92,6 @@
 				BF52B5CE2AF02D0400AC42BD /* Components */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		BF52B5CD2AF02CED00AC42BD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BF52B5CE2AF02D0400AC42BD /* Components */ = {
@@ -128,6 +116,7 @@
 			children = (
 				BF52B5D42AF03BC000AC42BD /* Title.swift */,
 				BF52B5E02AF04ED900AC42BD /* Subtitle.swift */,
+				08CAD0552AF17201009E8322 /* ButtonSword.swift */,
 			);
 			path = Type;
 			sourceTree = "<group>";
@@ -137,6 +126,7 @@
 			children = (
 				BFD498792AF1683B00BC591C /* PirataOne.ttf */,
 				BF52B5E22AF04FCF00AC42BD /* PlayfairDisplaySC-Bold.ttf */,
+				08CAD0572AF191A7009E8322 /* PlayfairDisplaySC-Black.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -201,6 +191,7 @@
 			files = (
 				BFD4987A2AF1683B00BC591C /* PirataOne.ttf in Resources */,
 				BF52B5E32AF04FCF00AC42BD /* PlayfairDisplaySC-Bold.ttf in Resources */,
+				08CAD0582AF191A7009E8322 /* PlayfairDisplaySC-Black.ttf in Resources */,
 				08CAD04F2AF01992009E8322 /* Preview Assets.xcassets in Resources */,
 				08CAD04C2AF01992009E8322 /* Assets.xcassets in Resources */,
 			);
@@ -213,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CAD0562AF17201009E8322 /* ButtonSword.swift in Sources */,
 				BF52B5D52AF03BC000AC42BD /* Title.swift in Sources */,
 				BF52B5DF2AF047F500AC42BD /* ResponsiveStack.swift in Sources */,
 				08CAD04A2AF01991009E8322 /* ContentView.swift in Sources */,

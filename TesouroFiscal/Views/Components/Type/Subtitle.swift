@@ -17,8 +17,6 @@ struct Subtitle: View {
         Text(text)
             .font(.custom("PlayfairDisplaySC-Bold", size: size * width / 393))
             .foregroundStyle(Color(.primaryTheme))
-            .onAppear {
-                print(size * width / 393)
-            }
+            
     }
 }
